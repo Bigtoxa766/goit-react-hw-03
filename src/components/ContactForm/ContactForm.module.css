@@ -15,3 +15,8 @@
 .form_btn{
   margin-top: 15px;
 }
+
+.error_message{
+  color: red;
+  text-align: left;
+}

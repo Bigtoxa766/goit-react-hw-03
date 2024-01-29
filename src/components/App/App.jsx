@@ -54,8 +54,9 @@ function App() {
 
   return (
     <>
-      <h1>Phonebook</h1>
+      
       <div className={css.form_container}>
+        <h1>Phonebook</h1>
         <ContactForm onAdd={addContact} />
         <SearchBar value={inputValue} onChange={setInputValue} />
       </div>
